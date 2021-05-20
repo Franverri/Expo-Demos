@@ -69,7 +69,6 @@ const App = () => {
         <Stack.Screen
           name="Home"
           component={HomeScreen}
-          options={{ title: 'Welcome Avengers' }}
           initialParams={{ fromChild: 'Initial' }}
         />
         <Stack.Screen name="Profile" component={ProfileScreen} />
